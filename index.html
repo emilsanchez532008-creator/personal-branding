@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Emilio | Personal Branding</title>
+    <!-- Fuentes: Inter (Lectura), Syne (Moderno/Tecnológico), Playfair Display (Editorial) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital@0;1&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Indicador de progreso de lectura -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-brand">EMI.</div>
+        <div class="nav-links">
+            <a href="#hero">Inicio</a>
+            <a href="#esencia">Esencia</a>
+            <a href="#capitulos">Capítulos</a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Abrir menú">
+            <span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Hero / Portada -->
+    <header id="hero" class="hero-section">
+        <div class="hero-content reveal">
+            <h2 class="hero-subtitle">ESTUDIANTE DE INGENIERÍA EN INTELIGENCIA ARTIFICIAL Y DESARROLLO DE SOFTWARE</h2>
+            <h1 class="hero-title">JOSÉ EMILIO</h1>
+            <p class="hero-philosophy">"En constante evolución. Siempre creciendo."</p>
+            <a href="#esencia" class="btn-primary">CONÓCEME</a>
+        </div>
+        
+        <!-- FOTOGRAFÍA HERO: Sustituir el div por una etiqueta <img> al agregar tu foto -->
+        <div class="hero-image-container reveal delay-1">
+            <!-- Ejemplo de cómo colocar la imagen real: -->
+            <!-- <img src="assets/images/profile-hero.jpg" alt="José Emilio" class="real-image"> -->
+            <div class="img-placeholder" data-filename="profile-hero.jpg (Opcional)"></div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span class="mouse"></span>
+            <span class="text">Desplázate</span>
+        </div>
+    </header>
+
+    <!-- Introducción / Mi Esencia -->
+    <section id="esencia" class="esencia-section">
+        <div class="esencia-header reveal">
+            <span class="section-label">MI ESENCIA</span>
+            <h2 class="section-title">Tres pilares que definen <br>mi camino.</h2>
+        </div>
+        <div class="pilares-grid">
+            <div class="pilar-card reveal delay-1">
+                <span class="pilar-number">01</span>
+                <h3>AUTENTICIDAD</h3>
+                <p>Ser yo mismo, reconocer mis imperfecciones y actuar siempre en congruencia con mis valores más profundos.</p>
+            </div>
+            <div class="pilar-card reveal delay-2">
+                <span class="pilar-number">02</span>
+                <h3>CRECIMIENTO</h3>
+                <p>Aprender de manera constante, salir de mi zona de confort y tener la disciplina para construir mi propio camino.</p>
+            </div>
+            <div class="pilar-card reveal delay-3">
+                <span class="pilar-number">03</span>
+                <h3>CONEXIÓN</h3>
+                <p>Crear relaciones genuinas basadas en la confianza, el respeto mutuo, la empatía y la reciprocidad.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Los 10 Capítulos -->
+    <section id="capitulos" class="capitulos-section">
+        
+        <!-- Capítulo 01 (Layout A: Imagen izquierda, Texto derecha) -->
+        <article class="chapter layout-a reveal">
+            <div class="chapter-image">
+                <!-- FOTOGRAFÍA CAP 1 -->
+                <!-- <img src="assets/images/profile.jpg" alt="Quién soy" class="real-image"> -->
+                <div class="img-placeholder" data-filename="profile.jpg"></div>
+            </div>
+            <div class="chapter-content">
+                <div class="chapter-meta">
+                    <span class="chapter-num">01</span>
+                    <span class="chapter-cat">LA IMPORTANCIA DE MI IMAGEN PERSONAL</span>
+                </div>
+                <h3 class="chapter-question">¿Quién soy?</h3>
+                <p>Soy José Emilio Sánchez Muñiz, mexicano, estudiante universitario, hijo, hermano y amigo. Me considero una persona curiosa, que busca aprender, crecer y mejorar constantemente, tanto en lo personal como en su entorno.</p>
+                <p>Me gusta ser alguien en quien los demás puedan confiar, una persona con quien puedan reír, hablar de sus problemas y mostrarse tal como son, sin sentir que serán juzgados. No pretendo tener todas las respuestas ni ser perfecto; reconozco mis errores y considero que aceptar nuestras imperfecciones es parte fundamental del crecimiento personal.</p>
+                <p>Mis principales valores son la autenticidad, la confianza y la fe, entendida no solamente desde lo religioso, sino también como la esperanza de que las cosas pueden mejorar y de que siempre existe algo por lo cual seguir adelante.</p>
+                <p>Lo que me motiva es seguir construyéndome como persona y contribuir al bienestar de quienes forman parte de mi vida. Me gustaría que los demás me reconocieran como alguien genuino, confiable y con quien puedan establecer relaciones basadas en el respeto, la reciprocidad y la confianza.</p>
+            </div>
+        </article>
+
+        <!-- Capítulo 02 (Layout B) -->
+        <article class="chapter layout-b reveal">
+            <div class="chapter-content">
+                <div class="chapter-meta">
+                    <span class="chapter-num">02</span>
+                    <span class="chapter-cat">POSICIONAMIENTO EN LA SOCIEDAD</span>
+                </div>
+                <h3 class="chapter-question">¿En qué áreas me desempeño/desempeñaré?</h3>
+                <p>Actualmente me desempeño como estudiante universitario de Ingeniería en Inteligencia Artificial y Desarrollo de Software, área en la que busco desarrollar mis conocimientos y habilidades mediante mi formación académica y proyectos personales. A futuro, aspiro a convertirme en un ingeniero preparado y competente, ya sea formando mi propia empresa o colaborando en una organización de alto nivel.</p>
+                <p>Más allá del crecimiento profesional, me gustaría desarrollar soluciones tecnológicas que atiendan necesidades reales y aporten algo positivo a la sociedad. También quisiera ser una persona que inspire a otros a perseguir sus objetivos, compartir lo que aprende y contribuir al crecimiento de quienes lo rodean.</p>
+            </div>
+            <div class="chapter-image">
+                <!-- FOTOGRAFÍA CAP 2 -->
+                <!-- <img src="assets/images/posicionamiento.jpg" alt="Posicionamiento" class="real-image"> -->
+                <div class="img-placeholder vertical" data-filename="posicionamiento.jpg"></div>
+            </div>
+        </article>
+
+        <!-- Capítulo 03 (Layout C: Editorial invertido) -->
+        <article class="chapter layout-c reveal">
+            <div class="chapter-content">
+                <div class="chapter-meta">
+                    <span class="chapter-num">03</span>
+                    <span class="chapter-cat">PERSONALIDAD</span>
+                </div>
+                <h3 class="chapter-question">¿Cómo me describo? Carácter + comportamiento.</h3>
+                <p>Me considero una persona más introvertida que extrovertida, aunque no necesariamente tímida. Suelo ser observador y cuidadoso con lo que digo; cuando conozco personas nuevas, procuro mostrarme abierto y generar conversaciones en las que todos puedan participar. Me describiría como alguien tranquilo, que combina cierta seriedad con un lado bromista y disfruta hacer reír a los demás.</p>
+                <p>Ante los problemas intento mantener la calma, analizar las situaciones y buscar soluciones sin dejarme llevar por el pánico. No suelo buscar ser el centro de atención, sino que prefiero crear un ambiente en el que todos se sientan escuchados e importantes. Aunque en ocasiones me cuesta conectar con personas nuevas, procuro mantenerme abierto a conocerlas.</p>
+                <blockquote class="pull-quote">"Prefiero crear un ambiente en el que todos se sientan escuchados e importantes."</blockquote>
+            </div>
+            <div class="chapter-image">
+                <!-- FOTOGRAFÍA CAP 3 -->
+                <!-- <img src="assets/images/personalidad.jpg" alt="Personalidad" class="real-image"> -->
+                <div class="img-placeholder horizontal" data-filename="personalidad.jpg"></div>
+            </div>
+        </article>
+
+        <!-- Capítulo 04 (Layout A) -->
+        <article class="chapter layout-a reverse reveal">
+            <div class="chapter-image">
+                <!-- FOTOGRAFÍA CAP 4 -->
+                <!-- <img src="assets/images/redes.jpg" alt="Exposición en la red" class="real-image"> -->
+                <div class="img-placeholder" data-filename="redes.jpg"></div>
+            </div>
+            <div class="chapter-content">
+                <div class="chapter-meta">
+                    <span class="chapter-num">04</span>
+                    <span class="chapter-cat">GRADO DE EXPOSICIÓN EN LA RED</span>
+                </div>
+                <h3 class="chapter-question">¿Cómo me doy a conocer en la red?</h3>
+                <p>Utilizo principalmente Instagram, WhatsApp, YouTube y GitHub. Mis redes personales las empleo para comunicarme, relacionarme con otras personas, entretenerme y aprender. Suelo mantener un perfil discreto, compartiendo ocasionalmente momentos o experiencias importantes de mi vida, sin exponer demasiado mi privacidad.</p>
+                <p>A futuro, me gustaría fortalecer mi presencia digital con un enfoque profesional, compartiendo proyectos, conocimientos y logros relacionados con mi formación. Considero importante mantener un equilibrio entre mi identidad personal y profesional, por lo que buscaría diferenciarlas para comunicarme de manera adecuada en cada espacio.</p>
+            </div>
+        </article>
+
+        <!-- Capítulo 05 (Layout D: Minimalista, centrado y reflexivo) -->
+        <article class="chapter layout-d reveal">
+            <div class="chapter-meta text-center">
+                <span class="chapter-num">05</span>
+                <span class="chapter-cat">COMPLEJOS</span>
+            </div>
+            <h3 class="chapter-question text-center">¿Qué creencias de mí mismo limitan mi crecimiento?</h3>
+            <div class="layout-d-grid">
+                <div class="chapter-image">
+                    <!-- FOTOGRAFÍA CAP 5 -->
+                    <!-- <img src="assets/images/complejos.jpg" alt="Reflexión" class="real-image"> -->
+                    <div class="img-placeholder square" data-filename="complejos.jpg"></div>
+                </div>
+                <div class="chapter-content">
+                    <p>Reconozco que en ocasiones soy demasiado exigente conmigo mismo y siento que todavía necesito mejorar ciertos aspectos antes de considerarme suficientemente preparado. También tiendo a sobrepensar algunas situaciones, especialmente al relacionarme con otras personas, preguntándome si dije algo incorrecto o qué impresión pude haber causado.</p>
+                    <p>Además, a veces me cuesta mostrarme vulnerable o expresar completamente lo que siento hasta desarrollar confianza con alguien. Sin embargo, soy consciente de todo esto y trabajo por mejorar, buscando confiar más en mí mismo, aceptar mi proceso y entender que no todo lo que hago o digo necesita ser cuestionado.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Capítulo 06 (Layout B) -->
+        <article class="chapter layout-b reverse reveal">
+            <div class="chapter-content">
+                <div class="chapter-meta">
+                    <span class="chapter-num">06</span>
+                    <span class="chapter-cat">SEGURIDAD EN MÍ MISMO</span>
+                </div>
+                <h3 class="chapter-question">¿Me siento seguro de mí mismo? ¿Qué me da seguridad?</h3>
+                <p>Actualmente me considero una persona segura de sí misma, tanto en el ámbito académico como en mis relaciones sociales. Esta confianza la he construido a través de mis experiencias y retos personales, especialmente al desempeñarme como jefe de grupo durante la preparatoria, una experiencia que me ayudó a salir de mi zona de confort y desarrollar nuevas habilidades.</p>
+                <p>Aunque puedo sentir cierta incertidumbre al enfrentar situaciones desconocidas, he aprendido que no necesito saberlo todo para confiar en mí. Considero que la seguridad también consiste en reconocer lo que desconozco, estar dispuesto a aprender y confiar en mi capacidad para afrontar nuevos retos.</p>
+            </div>
+            <div class="chapter-image">
+                <!-- FOTOGRAFÍA CAP 6 -->
+                <!-- <img src="assets/images/seguridad.jpg" alt="Seguridad" class="real-image"> -->
+                <div class="img-placeholder vertical" data-filename="seguridad.jpg"></div>
+            </div>
+        </article>
+
+        <!-- Capítulo 07 (Layout con Etiquetas) -->
+        <article class="chapter layout-a reveal">
+            <div class="chapter-image">
+                <!-- FOTOGRAFÍA CAP 7 -->
+                <!-- <img src="assets/images/autoconocimiento.jpg" alt="Autoconocimiento" class="real-image"> -->
+                <div class="img-placeholder" data-filename="autoconocimiento.jpg"></div>
+            </div>
+            <div class="chapter-content">
+                <div class="chapter-meta">
+                    <span class="chapter-num">07</span>
+                    <span class="chapter-cat">AUTOCONOCIMIENTO</span>
+                </div>
+                <h3 class="chapter-question">¿Qué conozco de mí? Fortalezas y debilidades.</h3>
+                <div class="tags-container">
+                    <span class="tag">Responsable</span>
+                    <span class="tag">Disciplinado</span>
+                    <span class="tag">Empático</span>
+                    <span class="tag">Respetuoso</span>
+                    <span class="tag">Curioso</span>
+                </div>
+                <p>Me considero una persona responsable, disciplinada, empática, respetuosa y curiosa. Entre mis fortalezas destacaría mi capacidad de razonamiento, mi disposición para ayudar a los demás y mi facilidad para trabajar en equipo y asumir responsabilidades. También procuro ser una persona honesta, humilde y leal, tanto en mis amistades como en mi familia.</p>
+                <p>En cuanto a mis áreas de oportunidad, reconozco que necesito trabajar en mi apertura emocional, fortalecer mis relaciones personales y dejar de preocuparme tanto por la opinión o aprobación de los demás. También quiero aprender a reconocer mis propios logros sin sentir que estoy presumiendo, manteniendo siempre una actitud de aprendizaje.</p>
+            </div>
+        </article>
+
+        <!-- Capítulo 08 (Layout Collage / Editorial) -->
+        <article class="chapter layout-collage reveal">
+            <div class="collage-header">
+                <div class="chapter-meta">
+                    <span class="chapter-num">08</span>
+                    <span class="chapter-cat">GUSTO ESTÉTICO</span>
+                </div>
+                <h3 class="chapter-question">¿Con qué vestimenta me siento más cómodo?</h3>
+                <p>Mi estilo al vestir es versátil, principalmente casual, deportivo y minimalista. Prefiero las prendas sencillas, los colores neutros y los diseños sin demasiados estampados, buscando combinar lo que tengo de distintas maneras.</p>
+                <p>Para mí es importante encontrar un equilibrio entre comodidad, apariencia y personalidad. También procuro adaptar mi vestimenta al lugar y la ocasión, manteniendo mi propio estilo sin dejar de verme apropiado para cada contexto.</p>
+            </div>
+            <div class="collage-grid">
+                <!-- FOTOGRAFÍAS CAP 8 (Recomendado 2 imágenes para estilo) -->
+                <!-- <img src="assets/images/estilo-1.jpg" alt="Outfit 1" class="real-image"> -->
+                <!-- <img src="assets/images/estilo-2.jpg" alt="Outfit 2" class="real-image"> -->
+                <div class="img-placeholder" data-filename="estilo-1.jpg"></div>
+                <div class="img-placeholder" data-filename="estilo-2.jpg"></div>
+            </div>
+        </article>
+
+        <!-- Capítulo 09 (Layout C) -->
+        <article class="chapter layout-c reveal">
+            <div class="chapter-content">
+                <div class="chapter-meta">
+                    <span class="chapter-num">09</span>
+                    <span class="chapter-cat">COMPORTAMIENTO Y COMUNICACIÓN</span>
+                </div>
+                <h3 class="chapter-question">¿Cómo transmito los mensajes?</h3>
+                <p>Me considero una persona tranquila, directa y adaptable al comunicarme. Procuro ajustar mi manera de expresarme dependiendo del contexto y de las personas con las que interactúo, sin dejar de ser yo mismo. Me gusta practicar la escucha activa, prestar atención a los demás y ofrecer mi opinión o apoyo cuando es necesario.</p>
+                <p>También he trabajado en mejorar mi lenguaje corporal, especialmente el contacto visual, la gesticulación y el uso de movimientos para complementar mis ideas. Considero que la comunicación no consiste únicamente en hablar, sino también en saber escuchar, comprender y transmitir adecuadamente lo que queremos expresar.</p>
+            </div>
+            <div class="chapter-image">
+                <!-- FOTOGRAFÍA CAP 9 -->
+                <!-- <img src="assets/images/comunicacion.jpg" alt="Comunicación" class="real-image"> -->
+                <div class="img-placeholder vertical" data-filename="comunicacion.jpg"></div>
+            </div>
+        </article>
+
+        <!-- Capítulo 10 (Layout A) -->
+        <article class="chapter layout-a reveal">
+            <div class="chapter-image">
+                <!-- FOTOGRAFÍA CAP 10 -->
+                <!-- <img src="assets/images/protocolo.jpg" alt="Protocolo social" class="real-image"> -->
+                <div class="img-placeholder" data-filename="protocolo.jpg"></div>
+            </div>
+            <div class="chapter-content">
+                <div class="chapter-meta">
+                    <span class="chapter-num">10</span>
+                    <span class="chapter-cat">EL SENTIDO DEL PROTOCOLO</span>
+                </div>
+                <h3 class="chapter-question">¿Cómo me desenvuelvo en lo social? ¿Soy coherente?</h3>
+                <p>Me considero una persona que sabe adaptarse a distintos entornos sociales, identificando cuándo es necesario actuar con formalidad y cuándo puedo desenvolverme con mayor naturalidad. Para mí, el respeto, los modales, la puntualidad y la presentación personal son importantes, pues considero que reflejan parte de nuestra educación y consideración hacia los demás.</p>
+                <p>Procuro que mi comportamiento sea coherente con mis valores y con la imagen que quiero proyectar, sin dejar de ser auténtico. Considero que tener educación no significa actuar de manera rígida o artificial, sino saber tratar a los demás con respeto independientemente del contexto.</p>
+            </div>
+        </article>
+
+    </section>
+
+    <!-- Cierre / Filosofía -->
+    <footer class="closing-section reveal">
+        <div class="closing-content">
+            <p class="closing-quote">"No se trata de tener todas las respuestas ni de ser una versión perfecta de nosotros mismos. Se trata de seguir aprendiendo, construir nuestro propio camino y no perder aquello que nos hace ser quienes somos."</p>
+            <div class="signature">José Emilio Sánchez Muñiz.</div>
+            <button id="btn-top" class="btn-secondary" aria-label="Volver al inicio">Volver al inicio</button>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
